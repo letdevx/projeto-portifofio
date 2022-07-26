@@ -1,0 +1,46 @@
+nav#menu {
+    display: block;
+    color: blue; 
+    
+} 
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase; /* tranforma em letra maiuscula */
+    position: absolute;
+    top: -20px;
+    left: 300px;
+} 
+nav#menu li {
+    display: inline-block;
+    background-color: antiquewhite; 
+    padding: 10px;
+    margin: 2px;
+    transition: backgoud-color 1s;
+
+} 
+
+nav#menu li:hover{ 
+    background-color: rgb(115, 0, 255);
+     
+}  
+nav#menu h1{
+    display: none; 
+
+} 
+nav#menu a{
+    color: black ;
+    text-decoration: none; 
+
+}  
+nav#menu a:hover{
+    color: grey;
+}  
+div#curriculo {
+    display: block;
+    width: 100%;
+    height: 50%;
+    background-color: blueviolet;
+} 
+body{
+    background-color: aqua;
+}
