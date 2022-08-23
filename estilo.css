@@ -1,46 +1,111 @@
-nav#menu {
-    display: block;
-    color: blue; 
+body{
+    margin: 0;
+}
+ 
+nav{
+    background-color:rgba(220, 179, 218, 0.945);
+    padding: 0 20px;
+    justify-content: space-between;
     
 } 
-nav#menu ul{
+nav, ul{
+    display: flex;
+    flex-direction: row;
+}
+ ul {
     list-style: none;
-    text-transform: uppercase; /* tranforma em letra maiuscula */
-    position: absolute;
-    top: -20px;
-    left: 300px;
-} 
-nav#menu li {
-    display: inline-block;
-    background-color: antiquewhite; 
-    padding: 10px;
-    margin: 2px;
-    transition: backgoud-color 1s;
-
-} 
-
-nav#menu li:hover{ 
-    background-color: rgb(115, 0, 255);
-     
-}  
-nav#menu h1{
-    display: none; 
-
-} 
-nav#menu a{
-    color: black ;
-    text-decoration: none; 
-
-}  
-nav#menu a:hover{
-    color: grey;
-}  
-div#curriculo {
+    padding: 0 20px;
+    text-transform: uppercase;
+    color: bisque; 
+    text-decoration: none;
+    
+    
+ } 
+li{
     display: block;
-    width: 100%;
-    height: 50%;
-    background-color: blueviolet;
+    padding: 0 20px;
+    cursor: pointer;
+    margin: 2px;
+    text-decoration: none;
+    color: white;
 } 
-body{
-    background-color: aqua;
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: black;
+    padding-left: 200pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+h2{
+    color: rgb(224, 146, 242);
+    color: rgb(rgba(220, 179, 218, 0.945), green, blue);
+    padding-left: 200pt;
+    padding-top: 0px 20px 0px 40px;
+    margin-top: 0pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div#cena-principal h1{
+    width: 1000px;
+    height: 20px;
+    background-color: aquamrine;
+    margin-bottom: 1px 20px 1px 20px;
+    border-left: 200px;
+ } 
+ img{ 
+    padding-left: 60%;
+    padding-top: 10pt;
+    width: 300pt;
+    height: 300pt;
+    position: relative;
+    float: right;
+    margin: 0;
+
+ } 
+ header{
+    width: 100%;
+ } 
+ 
+ main.flex-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: ; 
+    
+    
+
+ } 
+  section.iten1{  
+    flex-shrink: initial;
+    color: black;
+    
+   
+  } 
+
+div.container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+div.projetos{
+    align-items: center;
+    background-color: rgb(155, 90, 190); 
+    text-transform: uppercase;
+
+}  
+ h1.titulo-projetos{ 
+    position: relative;
+    margin-left: 10pt;
+    padding-left: 10px;
+    color: palevioletred ;
+ }  
+footer{
+    height: 50px;
+    width: 100%;
+    border-top: 10pt black; 
+    background-color: blueviolet;
 }
